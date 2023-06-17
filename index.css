@@ -1,0 +1,218 @@
+body {
+    font-family: 'Poppins';
+    background-color: rgb(31, 31, 31);
+}
+
+/* Header */
+.navH1{
+    position: relative;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: white;
+}
+.topnav{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+ .navbtn{
+    margin: 18px 10px 0px 27px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 12px;
+    width: 120px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(38, 38, 38);
+    border: 2px solid rgb(38, 38, 38);
+
+}
+#searchBar{
+    padding: 10px;
+    border: none;
+    display: flex;
+    width:  597px;
+    color:white;
+}
+
+.link{
+    /* padding: 14px 16px;  */
+    text-decoration: none;
+  color: white;
+  background-color: rgb(38, 38, 38);
+}
+
+  .topnav input[type=text] {
+    /* float: right; */
+        /* float: right; */
+        width: 559px;
+        height: 36px;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        border-radius: 12px;
+        margin-left: 100px;
+        margin-top: 16px;
+        background-color: rgb(38, 38, 38);
+
+  }
+
+
+
+
+/* About CSS */
+.heading {
+    color: #ffff;
+    padding-left: 46px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    height: 53px;
+    margin-bottom: 3rem;
+}
+
+.AboutDiv {
+    margin: 40px;
+    border-radius: 3rem;
+    background-color: rgb(38, 38, 38);
+    padding: 1rem;
+    display: flex;
+}
+
+.KnowMore {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 0;
+}
+
+.Clock {
+    margin: 1rem;
+}
+
+.KnowMoreButton {
+    background-color: rgb(254, 203, 3);
+    color: rgb(38, 38, 38);
+    margin: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    border-radius: 4rem;
+    width: 260px;
+    height: 107px;
+    margin: auto;
+}
+
+.About {
+    display: flex;
+    color: rgb(196, 196, 196);
+    margin: 2rem;
+}
+
+.AboutInfo {
+    display: flex;
+    margin: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+
+.imgage {
+    width: 105px;
+    height: 105px;
+}    
+
+
+
+/* Our Categories CSS */
+
+.cate-div {
+    margin: 40px;
+    padding: 1rem;
+}
+
+.categories {
+    margin: 40px;
+    border-radius: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 391px;
+    border-radius: 1.4rem;
+    border: 3px solid #262626;
+    margin: 20px;
+    display: inline;
+    color: rgb(196, 196, 196);
+    padding: 1.5rem;
+}
+
+.card > .KnowMoreButton {
+    background-color: rgb(254, 203, 3);
+    color: rgb(38, 38, 38);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 4rem;
+    width: 170px;
+    height: 58px;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+/* footer */
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 38, 38);
+    border-radius: 14px;
+  width: 90%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-left:100px; */
+  margin-top: 40px;
+  margin: auto;
+    justify-content: space-between;
+   }
+
+  #forent{
+    color: white;
+    width: 400px;
+    text-align: left;
+    margin: 40px 40px 40px 40px;
+
+  }
+  #sitemap{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 63px 40px 80px;
+  }
+  .linkf{
+    text-decoration: none;
+      color: white;
+    margin: 3px;
+
+      }
+ .footH1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+
+  }
